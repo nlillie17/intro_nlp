@@ -39,7 +39,7 @@ The following is a summary of rudimentary natural language processing computatio
     shortest_word = ""
     
 
-   similar_words = model.most_similar(positive=[word], topn=100) 
+    similar_words = model.most_similar(positive=[word], topn=100) 
     print (similar_words[0])
     PoS_word = simple_POS(TextBlob(word).tags[0][1])
     shortest_length = 100
