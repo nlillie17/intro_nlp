@@ -68,7 +68,7 @@ The following is a summary of rudimentary natural language processing computatio
  3. The final problem is a movie-review sentiment. It attempts to classify movie reviews as positive or negative based on some feature engineering and machine learning. We used decision trees as our algorithim. The main feature engineering can be found below: 
  
  
- feature engineering for movie reviews, dictionary that counts number of positive and negative words in the review. 
+ #feature engineering for movie reviews, dictionary that counts number of positive and negative words in the review. 
             Using, textblob we also check the polarization of words (different gradients of sentiments) and the subjectivity of words 
             (more subjective probably means a more biased review);
             also we tried our hand at doing something similar to context analysis where we check the word before
